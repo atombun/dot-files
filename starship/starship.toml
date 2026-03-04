@@ -1,5 +1,3 @@
-#starship.toml
-
 add_newline = false
 format = """\
 $os$username$hostname\
@@ -36,4 +34,5 @@ truncation_symbol = '…/'
 home_symbol = '󰋜 ~'
 read_only_style = '197'
 read_only = '  '
+
 format = '[$path]($style)[$read_only]($read_only_style) '
