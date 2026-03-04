@@ -1,3 +1,5 @@
+# https://github.com/starship/starship
+
 add_newline = false
 format = """\
 $os$username$hostname\
@@ -36,3 +38,4 @@ read_only_style = '197'
 read_only = '  '
 
 format = '[$path]($style)[$read_only]($read_only_style) '
+
