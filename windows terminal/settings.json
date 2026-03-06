@@ -1,0 +1,128 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysOnTop": true,
+    "alwaysShowNotificationIcon": false,
+    "defaultProfile": "{c1ccd873-39fc-4d7e-b9ab-015abff7d1e1}",
+    "keybindings": [],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "AtomBun",
+            "font": 
+            {
+                "face": "CaskaydiaCove Nerd Font",
+                "size": 14
+            },
+            "opacity": 0,
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "colorScheme": 
+                {
+                    "light": "AtomBun"
+                },
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "elevate": false,
+                "font": 
+                {
+                    "face": "CaskaydiaCove Nerd Font"
+                },
+                "guid": "{c1ccd873-39fc-4d7e-b9ab-015abff7d1e1}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell",
+                "opacity": 0,
+                "padding": "14",
+                "scrollbarState": "visible",
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#000000",
+            "black": "#0C0C0C",
+            "blue": "#5361FF",
+            "brightBlack": "#4D4D4D",
+            "brightBlue": "#8C97FF",
+            "brightCyan": "#8CEDFF",
+            "brightGreen": "#8CFF8C",
+            "brightPurple": "#C589FF",
+            "brightRed": "#FF958C",
+            "brightWhite": "#B3B3B3",
+            "brightYellow": "#FFF58F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#4FD9FF",
+            "foreground": "#FFFFFF",
+            "green": "#62FF65",
+            "name": "AtomBun",
+            "purple": "#A253FF",
+            "red": "#FF5D5D",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FFF55B"
+        },
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell (modified)",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#000000",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#13A10E",
+            "name": "Color Scheme 10",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        }
+    ],
+    "theme": "system",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
