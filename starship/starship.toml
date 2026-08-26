@@ -1,0 +1,39 @@
+#starship.toml
+
+add_newline = false
+format = """\
+$os$username$hostname\
+$all$directory"""
+
+[character]
+success_symbol = ''
+error_symbol = ''
+
+[os]
+format = '[$symbol](bold white)  '   
+disabled = false
+
+[os.symbols]
+Windows = ''
+Macos = '󰀵'
+Arch = '󰣇'
+
+[username]
+style_user = '#ff8cb0'
+style_root = 'white bold'
+format = '[$user]($style)'
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format = '@[$hostname](bold purple) '
+disabled = false
+
+[directory]
+truncation_length = 1
+truncation_symbol = '…/'
+home_symbol = '󰋜 ~'
+read_only_style = '197'
+read_only = '  '
+format = '[$path]($style)[$read_only]($read_only_style) '
